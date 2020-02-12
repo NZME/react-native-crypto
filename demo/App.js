@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from "react-native";
-import { Aes, Sha, Hmac, Pbkdf2, Rsa } from "@trackforce/react-native-crypto";
+import { Aes, Sha, Hmac, Pbkdf2, Rsa } from "react-native-crypto";
 import { Buffer } from "buffer";
 
 export default class App extends Component {
@@ -40,7 +40,7 @@ export default class App extends Component {
 
       const validSignature = await Rsa.verify(rsaSignature, rsaEncryptedMessage, rsaKeys.public, 'SHA256');
       console.log('rsa signature verified:', validSignature);
-      
+
       const rsaDecryptedMessage = await Rsa.decrypt(rsaEncryptedMessage, rsaKeys.private);
       console.log('rsa Decrypt:', rsaDecryptedMessage);
     } catch (err) {

@@ -939,7 +939,7 @@
     eslint-plugin-react-native "3.6.0"
     prettier "1.16.4"
 
-"@trackforce/react-native-crypto@file:../lib":
+"react-native-crypto@file:../lib":
   version "1.0.1"
 
 "@types/babel__core@^7.1.0":

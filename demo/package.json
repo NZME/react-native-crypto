@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@trackforce/react-native-crypto": "file:../",
+    "react-native-crypto": "file:../",
     "buffer": "^5.4.3",
     "react": "16.10.2",
     "react-native": "0.61.2"

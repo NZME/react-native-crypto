@@ -1,5 +1,5 @@
 {
-    "name": "@trackforce/react-native-crypto",
+    "name": "react-native-crypto",
     "version": "1.0.1",
     "description": "React-native crypto module",
     "main": "index.js",
@@ -22,13 +22,13 @@
         "hmac256",
         "rsa"
     ],
-    "homepage": "https://github.com/trackforce/react-native-crypto",
+    "homepage": "https://github.com/NZME/react-native-crypto",
     "bugs": {
-        "url": "https://github.com/trackforce/react-native-crypto/issues"
+        "url": "https://github.com/NZME/react-native-crypto/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/trackforce/react-native-crypto.git"
+        "url": "git://github.com/NZME/react-native-crypto.git"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
